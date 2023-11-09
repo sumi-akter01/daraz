@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 'Roboto Condensed', sans-serif;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+/* =================Header=============== */
+.first-header{
+    width: 100%;
+}
+.header-contant{
+    background-color: #f85606;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.left ul{
+    list-style: none;
+    display: flex;
+   
+}
+.left ul li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #ffff;
+    font-size: 14px;
+    font-family: 'Roboto-Regular', "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+}
+.left ul li a:hover{
+    opacity: .8;
+}
+.right{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 0px 0px 8px 8px
+
+}
+.right a{
+    text-decoration: none;
+    color: #ffff;
+}
+.right img{
+    height: 28px;
+}
+/* a{
+    text-decoration: none;
+    
+} */
+.second-header{
+    width: 100%;
+    background-color: #f85606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   
+}
+.header-logo img{
+    width: 55%;
+}
+.header-input{
+    width: 40%;
+    
+}
+.header-input .btn-input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 15px;
+    
+}
+.header-input i{
+    position: absolute;
+    margin-top: -28px;
+    /* text-align: center; */
+    left: 66%;
+    font-size: 20px;
+    color: #f85606;
+   
+}
+.header-pera {
+    /* margin-left: 50px; */
+    
+    padding: 0 40px;
+}
+.header-pera a{
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Roboto-Regular', "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+    text-decoration: none;
+}
+.header-pera i{
+    font-size: 22px;
+    color: #ffff;
+}
+
+/* ==================HERO section=================== */
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.hero-left ul{
+    list-style: none;
+}
+.hero-left{
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 13px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: 'Roboto-Regular', "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+    color: gray;
+    background-color: #ffff;
+}
+.hero-left ul li:hover{
+    color: #f85606;
+}
+.hero-right{
+    display: flex;
+    width: 65%;
+    height: 360px;
+    /* margin-top: -110px; */
+    object-fit: contain;
+    object-position: center;
+
+}
+.hero-right img{
+    border-radius: 20px;
+}
+
+/* =============Services section=============== */
+.col-25{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px; */
+    
+}
+.service{
+    width: 78%;
+    display: flex;
+    background-color: #fff1eb;
+    padding: 12px 20px;
+    border-radius: 17px;
+    
+    
+}
+.service span{
+    /* display: flex;
+    align-items: center; */
+    padding: 0 10px;
+    border-right: 1px solid gray;
+    margin: 0 10px;
+}
+/* ====================products section=============== */
+.col-30{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+    
+    
+}
+.small-card{
+    display: flex;
+    width: 80%;
+    height: 160px;
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 17px;
+}
+.body{
+   margin-left: 12px;
+   height: 100px;
+   align-items: center;
+    
+}
+.body img{
+    width: 80px;
+    padding:  20px;
+}
+.body p{
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Roboto-Regular', "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+}
+ /* ====================Product Card Section=================== */
+ .middle-card{
+    display: flex;
+    justify-content: space-around;
+ }
+ .cards{
+    display: flex;
+    justify-content: center;
+ }
